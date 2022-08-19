@@ -1,0 +1,29 @@
+let dataAtual = new Date(2022,8,19);
+let dataEvento = new Date(2022,9,10)
+let listaParticipantes = ["João","Anna","Rodrigo","Lucas","Matheus"]
+let idadeParticipantes = 20
+let numeroParticipantes = 0
+
+
+if(dataEvento>dataAtual) {
+    console.log("Agendar Evento")
+}   else {console.log ("data invalida")
+
+}
+
+console.log("-------------------------------------------")
+if(idadeParticipantes>= 18) {
+    console.log("entrada permitida")
+}   else {console.log ("idade invalida")
+
+}
+console.log("-------------------------------------------")
+console.log(listaParticipantes)
+console.log("--------------------------------------------")
+numeroParticipantes = listaParticipantes.length
+
+
+if(numeroParticipantes<100) {
+    console.log("permitir acesso")
+    else console.log("cadastro excedido")
+}
